@@ -1,17 +1,20 @@
-# machine_learning_project-unsupervised-learning
+# ml-project-unsupervised-learning
 
 ## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+For this project, I created unsupervised learning models that explained variance and customer behaviour from a wholesale dataset.
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+The modules used in this project include: pandas, numpy, matplotlib.pyplot, seaborn, scipy, and sklearn. 
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+I performed EDA, data pre-processing, and unsupervsed learning techniques to display data visualizations with the goal of communicating the insights gained from this analysis. 
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+KMeans clustering, hierarchical clustering, and principle component analysis are the unsupervised learning models implemented in this project. 
 
+### Process
+1.	Explore dataset to get a clear understanding of the relationships between variables and how they affect the outcome variable. 
+2.	Start data pre-processing. Clean the data by checking for null/missing values, duplicates, and outliers.
+3.	Start feature analysis – look at feature correlations, decide whether or not the data needs to be scaled or normalized.
+4.	Begin creating unsupervised learning models
+5.	Interpret model outputs
+
+### Findings
+I found that grocery and detergent_paper have a high positively correlation (85%), which means customers tend to purchase items from these categories often. When we group these features up based off attribute similarities, there are 3 main groups. The lack of clear clusters suggests that customers have similar shopping habits. Some outliers were kept. Variability is important in this dataset and the outliers contribute to that. Not all customers shop the same way and these customers should be accounted for in our data.
